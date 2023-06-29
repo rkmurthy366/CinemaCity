@@ -69,9 +69,9 @@ export default function MovieScreen() {
                 <ChevronLeftIcon size="28" strokeWidth={2.5} color="white" />
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={()=> toggleFavourite(!isFavourite)}>
+            {/* <TouchableOpacity onPress={()=> toggleFavourite(!isFavourite)}>
                 <HeartIcon size="35" color={isFavourite? theme.background: 'white'} />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
         </SafeAreaView>
         {
             loading? (
